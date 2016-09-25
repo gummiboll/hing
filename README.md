@@ -13,7 +13,7 @@ hing
 Just run `hing` and point your browser to http://localhost:8080 (listen address can be changed with -l and port with -p).
 
 # Developing
-- runt hing with `-dev` in the same dir as the static-folder to be able to edit html/css/js without rebuilding with statik.
+- run hing with `-dev` in the same dir as the static-folder to be able to edit html/css/js without rebuilding with statik.
 - build statik with `$GOPATH/bin/statik -src=static`
 - Run `bra run` to enable rebuild/reload automatically after save
 
